@@ -1,0 +1,505 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Non-CSS reset code
+*/
+
+body{font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+nav{height: 40px;
+width: auto;
+margin: 30px 35px;
+font-size: 12px;
+}
+
+.welcome{float: left;
+color: #999;
+}
+
+.navigation{float: right;
+}
+
+.navigation ul{
+list-style: none;
+margin: 0;
+}
+
+.navigation li{
+float: right;
+padding: 0px 10px;
+}
+
+.navigation a{
+color: #336699;
+}
+
+a:link {
+COLOR: #336699;
+Text-decoration:none;
+}
+
+.navigation a:hover{
+color: #3366FF;
+text-decoration:none;
+}
+
+a:visited {
+COLOR: #336699;
+Text-decoration: none;
+}
+
+a:active {
+COLOR: #3366FF;
+Text-decoration: none;
+}
+
+.logo{
+height: 25px;
+width: auto;
+margin: 30px;
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.headline{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+width: 860px;
+font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+text-align: center;
+}
+
+.headline h1{
+font-size: 58px;
+font-weight: 500;
+}
+
+.headline h2{
+font-size: 20px;
+padding: 25px; 
+}
+
+.Products{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 670px;
+height: 250px;
+}
+
+.Individual-Product{
+background: #e8e8e8;
+background: linear-gradient(#ffffff, #e8e8e8);
+float: left;
+margin: 5px 20px;
+width: 180px;
+text-align: center;
+border: 1px solid #F2F2F2;
+border-radius: 5px;
+box-shadow: 0 0 3px #CCC;
+}
+
+.Individual-Product li{
+padding: 8px;
+}
+
+.Product-Logo{
+margin-top: 10px;
+}
+
+.Product-Title{
+font-size: 20px;
+color: #336699;
+font-weight: bold;
+}
+
+.Product-Header{
+font-size: 14px;
+color: #CC0000;
+font-weight: bold;
+}
+
+.Product-Description{
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.Dividers{
+padding: 25px;
+text-align: center;
+font-size: 32px;
+letter-spacing: 10px;
+color: #CCC;
+}
+
+.Customers{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 860px;
+text-align: center;
+}
+
+.Customers H1{
+font-size: 48px;
+font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+text-align: center;
+font-weight: 600;
+}
+
+.Customer-Details{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 870px;
+margin-top: 25px;
+font-size: 20px;
+font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+color: #666;
+line-height: 1.3em;
+height: 300px;
+}
+
+.Customer-Description{
+float: left;
+width: 600px;
+}
+
+.Customer-Badge{
+float: left;
+width: 270px;
+}
+
+.customer-logos{
+display: block;
+margin-left:auto;
+margin-right: auto;
+padding: 20px;
+}
+
+.Customer-Logos img{
+padding-top: 25px;
+}
+
+.Mission-Statement{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 860px;
+text-align: center;
+}
+
+.Customer-Statement H2{
+font: 48px/48px 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
+font-family: 
+text-align: center;
+font-weight: 600;
+}
+
+table{
+margin: 20px 0px 0px 0px;
+}
+
+.numbering{width: 40px;
+text-align: right;
+padding: 0px 10px 0px 0px;
+color: #ccc;
+font: 48px/48px "CrimsonSemibold", "Times New Roman", Georgia, serif;
+font-weight: 600;
+padding-top: 0px;
+vertical-align:top;
+}
+
+table h4{
+color: #cc0000;
+font-size: 16px;
+font-weight: 600;
+padding: 10px 0px 0px 0px;
+}
+
+table p{
+font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+padding: 10px 0px 10px 0px;
+}
+
+.Rework{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+text-align: center;
+height: 560px;
+}
+
+.Rework-Title{
+width: 1300px;
+}
+
+.Rework-Headline{font-size: 48px;
+font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+text-align: center;
+font-weight: 600;
+margin: 0 auto;
+width: 890px;
+float: left;
+padding-bottom: 20px;
+}
+
+.Rework-Arrow{
+position: relative;
+right: 90px;
+top: 95px;
+}
+
+.Crumpled-Paper{
+float: left;
+position: relative;
+top: 25px;
+}
+
+.Rework-Details{
+font-size: 10px;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+padding-top: 10px; 
+
+}
+
+.Rework-Content{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 300px;
+margin-top: 30px;
+}
+
+.Rework-Image{
+float:left;
+width: 300px;
+}
+
+.Rework-Testimonials{
+float: left;
+width: 590px;
+}
+
+.Testimonial{
+font: italic 22px "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+color: #888;
+padding: 25px;
+}
+
+.Testifier{
+font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.Product-Summary{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+text-align: center;
+}
+
+.Product-Summary-Title{
+font: 48px CrimsonSemibold, 'Times New Roman', Georgia, serif;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.Product-Summaries{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 670px;
+height: 250px;
+}
+
+.Individual-Product-Summary{
+float: left;
+margin: 5px 15px;
+width: 180px;
+text-align: center;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+
+.Product-summary-image{
+margin-bottom: 10px;
+}
+
+.Product-Summary-header{
+font-size: 24px;
+font-weight: bold;
+padding: 10px 0px;
+}
+
+.Product-Specific-Title{
+font-size: 14px;
+color: #CC0000;
+font-weight: bold;
+padding-bottom: 10px;
+}
+
+.product-summary-description{
+font-size: 12px;
+margin-bottom: 10px;
+}
+
+.product-summary-header a:link{
+color: black;
+}
+
+.product-summary-header a:visited {
+COLOR: black;
+Text-decoration: none;
+}
+
+.other-container{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 660px;
+height: 370px;
+text-align: center;
+}
+
+.other-top-item{
+float: left;
+margin: 5px 20px;
+width: 290px;
+}
+
+.other-bottom-item{
+float: left;
+margin: 30px 20px 0px 20px;
+width: 290px;
+}
+
+.other-item-title{
+font: 14px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+color: #c00;
+font-weight: bold;
+}
+
+.specfic-item-title{
+font: 22px "CrimsonSemibold", "Times New Roman", Georgia, serif;
+font-weight: 600;
+padding: 10px;
+}
+
+.specfic-item-details{
+font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+color: #666;
+}
+
+.other-container a:link{
+color: black;
+}
+
+.other-container a:visited {
+COLOR: black;
+Text-decoration: none;
+}
+
+.other-container a:hover{
+color: #3366FF;
+text-decoration:none;
+}
+
+.bottom-footer{
+display:block;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+
+#footer-title{
+padding-bottom: 20px;
+font: 14px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+color: #c00;
+font-weight: 700;
+}
+
+.bottom-footer li{
+padding-bottom: 20px;
+font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.bottom-footer a:hover{
+color: #3366FF;
+text-decoration:none;
+}
+
+footer{
+display: block;
+margin-left:auto;
+margin-right: auto;
+width: 700px;
+}
+
+.footer-line li{
+float: left;
+padding: 10px;
+font: 10px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+color: #999;
+}
+
+.footer-line a:hover{
+color: #3366FF;
+text-decoration:underline;
+}
